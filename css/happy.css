@@ -71,11 +71,16 @@ span.navbar-title {
 .navbar-statics {
   padding: 15px 10px 15px 0;
   line-height: 20px;
+  text-align: right;
 }
 
 .navbar-statics a {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+#spacer {
+  height: 50px;
 }
 
 .site-header {
@@ -250,30 +255,30 @@ aside {
 }
 
 
-/*
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
 
-main {
-  border: 2px solid hotpink;
+  nav.main-navigation {
+    height:100px;
+  }
+  nav .container {
+    padding: 0 10px;
+
+  }
+  .navbar-title {
+    padding: 5px 0 5px 5px;
+    line-height: 20px;
+  }
+  .navbar-statics {
+    max-width: 100vw;
+    font-size: 0.8em;
+    text-align: left;
+  }
+  .site-branding {
+    max-width: 100vw;
+  }
+  .site-title {
+    font-size: 1.5em;
+  }
 }
-
-header {
-  border: 2px solid #3481cd
-}
-
-article {
-  border: 2px solid purple;
-}
-
-aside {
-  border: 2px solid tomato;
-}
-
-aside.plugin {
-  border: 1px solid yellow;
-}
-
-footer {
-  border: 2px solid seagreen;
-}
-
-/**/

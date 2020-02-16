@@ -6,7 +6,7 @@
 			   <span class="navbar-title"><?php echo $site->title() ?></span>
         </a>
       </div>
-      <div class="nine columns navbar-statics" style="text-align:right;">
+      <div class="nine columns navbar-statics">
         <!-- Static pages -->
         <?php foreach ($staticContent as $staticPage): ?>
         <a class="" href="<?php echo $staticPage->permalink() ?>"><?php echo $staticPage->title() ?></a>
@@ -18,7 +18,7 @@
   </div>
 </nav>
 
-<div id="space" style="height:50px;"></div>
+<div id="spacer"></div>
 
 <div class="u-full-width site-header">
   <div class="site-branding">
