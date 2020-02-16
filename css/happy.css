@@ -84,7 +84,7 @@ span.navbar-title {
 }
 
 .site-header {
-  background-image: url('/bl-themes/happybuddha/img/header.jpg');
+  background-image: url('../img/header.jpg');
   background-size: cover;
   position: relative;
   margin-bottom: 3em;
