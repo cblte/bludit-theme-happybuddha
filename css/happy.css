@@ -1,0 +1,279 @@
+/*!
+HAPPY BUDDHA
+with a minimal things for links
+Done by 2018 Carsten Brueggenolte
+Licensed under the WTFPL License.
+https://de.wikipedia.org/wiki/WTFPL
+*/
+
+body {
+  background-color: #eceff1;
+  color: #212121;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a,
+a:hover,
+a:visited,
+a:focus {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* --------------------------------------------------------
+    NAVIGATION BAR, HEADER IMAGE, SITE TITLE & SLOGAN
+-------------------------------------------------------- */
+
+nav {
+  background-color: white;
+  -webkit-box-shadow: 0 1px 1px rgba(100, 100, 100, .2);
+  -ms-box-shadow: 0 1px 1px rgba(100, 100, 100, .2);
+  box-shadow: 0 1px 1px rgba(100, 100, 100, .2);
+  clear: both;
+  display: block;
+  float: left;
+  margin-bottom: 0;
+  width: 100%;
+  text-transform: uppercase;
+  height: 50px;
+}
+
+.main-navigation a {
+  text-decoration: none;
+}
+
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+  position: fixed;
+  z-index: 1030;
+}
+
+.navbar-title {
+  /* 50px height - so we center this in the middle */
+  padding: 15px 0 15px 10px;
+  line-height: 20px;
+}
+
+span.navbar-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.navbar-statics {
+  padding: 15px 10px 15px 0;
+  line-height: 20px;
+}
+
+.navbar-statics a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.site-header {
+  background-image: url('/bl-themes/happybuddha/img/header.jpg');
+  background-size: cover;
+  position: relative;
+  margin-bottom: 3em;
+  min-height: 120px;
+  height: 245px;
+  display: table;
+}
+
+.site-branding {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.site-title {
+  color: #fff;
+  font-size: 3.5em;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-shadow: rgba(255, 255, 255, .1) -1px -1px 1px, rgba(0, 0, 0, .5) 1px 1px 1px;
+}
+
+.site-slogan {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 400;
+  padding: .2em 0;
+  letter-spacing: 5px;
+  text-transform: capitalize;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-shadow: rgba(255, 255, 255, .1) -1px -1px 1px, rgba(0, 0, 0, .5) 1px 1px 1px;
+}
+
+/* --------------------------------------------------------
+    MAIN PART
+-------------------------------------------------------- */
+
+article {
+  background-color: white;
+  margin-bottom: 2em;
+  box-shadow: 0 0 1px rgba(0, 0, 0, .15);
+  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, .15);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, .15);
+}
+
+.article-cover-image {
+  padding: .5em .5em;
+  height: 100%;
+  overflow: hidden;
+}
+
+img.bludit-image {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+.article-header {
+  padding: 1em 2em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.article-title {
+  overflow: hidden;
+  word-break: break-word;
+}
+
+.article-meta {
+  clear: both;
+  color: #727272;
+  text-transform: capitalize;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.article-meta-line {
+  height: 2px;
+  display: block;
+  width: 50px;
+  margin: 10px auto;
+  background-color: #1EAEDB;
+}
+
+.article-summary {
+  text-align: justify;
+  padding: 0 2em;
+}
+
+.article-read-more {
+  margin-bottom: 1.2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.article-read-more a {
+  border-bottom: 2px solid #1EAEDB;
+  padding: 1em;
+}
+
+.article-read-more a:hover {
+  border-bottom: 1px solid #0FA0CE;;
+  background-color: #0FA0CE;
+  color: #fff;
+}
+
+.article-footer {
+  word-spacing: 3px;
+  padding-bottom: 2.5em;
+}
+
+/* --------------------------------------------------------
+    ASIDE
+-------------------------------------------------------- */
+
+aside {
+  overflow: hidden;
+}
+
+.plugin {
+  padding: 5px 5px;
+  margin-bottom: 1em;
+  background-color: #fff;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 10px 10px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, .15);
+  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, .15);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, .15);
+  color: #727272;
+}
+
+.plugin h2 {
+  font-size: 1.5em;
+  color: #212121;
+}
+
+
+
+
+/* --------------------------------------------------------
+    FOOTER
+-------------------------------------------------------- */
+
+.site-footer {
+  background-color: #222;
+  color: white;
+  min-height: 70px;
+  font-size: 16px;
+  padding: 1em;
+  letter-spacing: 1px;
+}
+
+.site-footer-info-container {
+  padding-left: 10px;
+}
+
+
+/*
+
+main {
+  border: 2px solid hotpink;
+}
+
+header {
+  border: 2px solid #3481cd
+}
+
+article {
+  border: 2px solid purple;
+}
+
+aside {
+  border: 2px solid tomato;
+}
+
+aside.plugin {
+  border: 1px solid yellow;
+}
+
+footer {
+  border: 2px solid seagreen;
+}
+
+/**/
