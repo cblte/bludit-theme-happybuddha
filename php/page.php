@@ -20,7 +20,7 @@
       <i class="far fa-calendar"></i>
       <?php echo $page->date(); ?> &ndash;
       <i class="fas fa-book"></i>
-      <?php echo $Language->get('Reading time') . ': ' . $page->readingTime(); ?>
+      <?php echo $L->get('Reading time') . ': ' . $page->readingTime(); ?>
       <?php endif ?>
       <hr class="article-meta-line" />
     </div>

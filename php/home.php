@@ -20,7 +20,8 @@
       <i class="far fa-calendar"></i>
       <?php echo $page->date(); ?> &ndash;
       <i class="fas fa-book"></i>
-      <?php echo $Language->get('Reading time') . ': ' . $page->readingTime(); ?>
+      <?php echo $L->get('Reading time') . ': ' . $page->readingTime(); ?>
+
       <!-- STICK POST -->
       <?php if($page->type() == 'sticky') { ?>
         <i class="far fa-sticky-note"></i> Angeheftet
@@ -35,7 +36,7 @@
 
     <?php if ($page->readMore()): // Read more" button ?>
     <p class="article-read-more">
-      <a href="<?php echo $page->permalink(); ?>"><?php echo $Language->get('Read more'); ?></a>
+      <a href="<?php echo $page->permalink(); ?>"><?php echo $L->get('Read more'); ?></a>
     </p>
     <?php endif ?>
 
