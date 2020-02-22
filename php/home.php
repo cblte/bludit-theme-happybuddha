@@ -47,3 +47,5 @@
 
 </article>
 <?php endforeach; ?>
+
+<?php include(THEME_DIR_PHP.'pagination.php'); ?>
