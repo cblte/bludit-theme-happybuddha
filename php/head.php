@@ -17,13 +17,11 @@
 <!-- Include CSS Bootstrap file from Bludit Core -->
 <?php echo Theme::cssBootstrap(); ?>
 
-<!-- Include CSS Styles from this theme -->
-<?php echo Theme::css('css/style.css'); ?>
-
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Raleway:400,300,600" type="text/css"  media="all">
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,300italic,700" type="text/css" media="all">
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic" type="text/css" media="all">
-                             
+
+<!-- Include CSS Styles from this theme -->                             
 <?php echo Theme::css('css/normalize.css'); ?>
 <?php echo Theme::css('css/skeleton.css'); ?>
 <?php echo Theme::css('css/happy.css'); ?>
